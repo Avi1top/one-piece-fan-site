@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*#region body*/
+/* Main page layout */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f7f7f7;
+}
+h1 {
+  background-color: #b10f0fa1;
+  box-shadow: 0 20px 10px rgba(198, 14, 14, 0.585);
+  border-radius: 40px;
+  transition: all 0.7s ease;
+}
+header {
+  background-color: #fff;
+  padding: 20px 0px 0px 0px;
+  box-shadow: 0 20px 10px rgba(14, 198, 170, 0.2);
+  top: 0;
+  width: 100%;
+}
+body {
+  background-image: url(./Images/One_piece2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img {
+  height: 50px;
+  width: auto;
+}
+h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+/* the chracters lines*/
+h4:hover {
+  background-color: rgba(0, 158, 58, 0.496);
+  color: rgba(0, 30, 255, 0.656);
+  box-shadow: 2px 2px 50px rgb(16, 214, 145);
+  transition: all 0.7s ease;
+}
+/* add shadow effect to text */
+table tr td:first-child {
+  text-shadow: 2px 2px 20px #63cd00;
+  transition: all 0.5s ease;
+}
+
+/* add background color on hover */
+table tr td:first-child:hover {
+  background-color: #070096a3;
+  color: red;
+}
+nav ul {
+  list-style: none;
+  margin-top: 15px;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+main {
+  margin-top: 80px;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Gochi Hand", cursive;
+  margin: 0;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 50px;
+  color: rgba(0, 0, 255, 0.695);
+}
+.style{
+  padding-bottom: 10px;
+  box-shadow: 0 2px 50px rgb(64, 168, 41);
+  margin-top: 5px;
+  background-color: #f4a2365c;
+  
+}
+ul li:hover {
+  background-color: #f4433686;
+  color: blue;
+  
+}
+table {
+  box-shadow: 0 2px 50px rgb(64, 168, 41);
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 0.6em;
+  padding: 0.5em;
+  color: #333;
+  box-shadow: 0 2px 20px rgb(217, 28, 25);
+  border-radius: 10px;
+  transition: all 0.6s ease;
+  text-align: center;
+}
+h2:hover {
+  background-color: #c5191998;
+  color: aqua;
+}
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Custom styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 50px rgb(168, 41, 41);
+  border-radius: 10px;
+}
+
+nav a {
+  padding: 10px;
+}
+
+nav a:hover,:focus {
+  background-color: #0ca7be;
+  color: #fff;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #f44336;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+.ger {
+  padding-bottom: 10px;
+  box-shadow: 0 2px 50px rgb(64, 168, 41);
+  margin-top: 5px;
+  background-color: #f4a2365c;
+  transition: all 0.7s ease;
+}
+/*#endregion*/
